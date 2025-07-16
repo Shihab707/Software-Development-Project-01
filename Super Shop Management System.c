@@ -161,13 +161,13 @@ int main() {
     char paymentOption[20];
     int paymentChoice;
     printf("\n💳 Choose a payment method:\n");
-    printf("1. Bekish\n2. Naghat\n3. Rocket\n4. BankCard\n5. Google Pay\n");
+    printf("1. Bkash\n2. Nagad\n3. Rocket\n4. BankCard\n5. Google Pay\n");
     printf("Enter option: ");
     scanf("%d", &paymentChoice);
 
     switch (paymentChoice) {
-        case 1: strcpy(paymentOption, "Bekish"); break;
-        case 2: strcpy(paymentOption, "Naghat"); break;
+        case 1: strcpy(paymentOption, "Bkash"); break;
+        case 2: strcpy(paymentOption, "Nagad"); break;
         case 3: strcpy(paymentOption, "Rocket"); break;
         case 4: strcpy(paymentOption, "BankCard"); break;
         case 5: strcpy(paymentOption, "Google Pay"); break;
